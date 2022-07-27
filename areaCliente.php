@@ -1,3 +1,7 @@
 <?php
-	echo "você está na pagina do ciente";
+	
+	if (isset($_SESSION[“login”])) {
+		echo "você está na pagina do ciente";
+	}
+	
 ?>
